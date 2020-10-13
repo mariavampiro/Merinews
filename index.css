@@ -50,6 +50,13 @@ h5{
     color: #3F3F42;
 }
 
+hr{
+    width: 800px;
+    position: absolute;
+    left: 16px;
+    right: 600px;
+}
+
 article{
     margin-top: 25px;
     border-top: 1px solid #BABABA;
@@ -150,6 +157,10 @@ p{
 #lastone a:hover{
     text-decoration: underline #B80000;
     color: #B80000;
+}
+
+#indetail{
+    padding-top: 20px;
 }
 
 .navbar1{

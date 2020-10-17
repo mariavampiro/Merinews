@@ -85,13 +85,12 @@ p{
     padding: 0px;
     border: 0px;
     font: inherit;
-    vertical-align: baseline;
     display: flex;
     height: 675px;
     flex-direction: column;
 }
 
-#main-section{
+.main-section{
     padding-right: 16px;
     padding-left: 46px;
     display: block;
@@ -108,7 +107,7 @@ p{
     padding: 0;
 }
 
-#first-header{
+.first-header{
     font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
     font-weight: 700;
     font-size: 13px;
@@ -119,17 +118,17 @@ p{
     padding-left: 46px;
 }
 
-#first-header ul{
+.first-header ul{
     padding: 0;
 }
 
-#first-header li{
-    padding: #ffffff;
+.first-header li{
+    padding: #FFFFFF;
     border-left: 1px #000000;
     border-right: 1px #000000;
 }
 
-#first-header a{
+.first-header a{
     color: #3F3F42;
     font-size: 12px;
     text-align: center;
@@ -138,7 +137,7 @@ p{
     padding-right: 28px;
 }
 
-#items{
+.items{
     color: #696969;
     font-weight: bolder;
     border-bottom: 1px solid #BABABA;
@@ -146,22 +145,12 @@ p{
     margin-left: 8px;
 }
 
-#seconditems ul{
+.second-items ul{
     list-style: circle;
     color: #3F3F42;
 }
 
-#lastone{
-    color: #696969;
-    font-size: 18px;
-}
-
-#lastone a:hover{
-    text-decoration: underline #B80000;
-    color: #B80000;
-}
-
-#indetail{
+.in-detail{
     padding-top: 20px;
 }
 
@@ -176,7 +165,6 @@ p{
     background: #FFFFFF;
     border-bottom: 1px solid #BABABA;
     color: #3F3F42;
-    vertical-align: baseline;
     display: block;
 }
 
@@ -199,8 +187,8 @@ p{
 }
 
 .navbar2 ul{
-    border-left-style: 1px solid #ffffff;
-    border-right-style: 1px solid #ffffff;
+    border-left-style: 1px solid #FFFFFF;
+    border-right-style: 1px solid #FFFFFF;
 }
 
 .navbar2 li{
@@ -209,15 +197,15 @@ p{
 
 .navbar2 a{
     text-decoration: none;
-    color: #ffffff;
-    border-right: 1px solid #ffffff;
+    color: #FFFFFF;
+    border-right: 1px solid #FFFFFF;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .navbar3{
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     padding-left: 16px;
     margin-bottom: 5px;
 }
@@ -252,14 +240,14 @@ p{
 
 .main-nav a{
     font-size: 40px;
-    color: #ffffff;
+    color: #FFFFFF;
     line-height: 22px;
     font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
     background: #B80000;
     margin-left: 10px;
 }
 
-.Links{
+.links{
     color: #3F3F42;
     border: 1px solid #DB7F7F;
     font-weight: bold;
@@ -270,30 +258,31 @@ p{
     line-height: 18px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 10px #ffffff
+    margin-bottom: 10px #FFFFFF
 }
 
-.Links a:hover{
+.links a:hover{
     background-color: #B80000;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .images{
+    position: relative;
     width: 800px;
 }
 
-.spanimage1{
+.span-image-1{
     position: absolute;
-    bottom: -250px;
-    right:502px;
+    bottom: 46px;
+    left:649px;
     background: #3F3F42;
     color: #EEEEEE;
     padding: 4px 4px;
 }
 
-.spanimage2{
+.span-image-2{
     position: absolute;
-    bottom: -296px;
+    bottom: 0px;
     background: #3F3F42;
     color: #EEEEEE;
     padding: 12px 4px;
@@ -319,16 +308,14 @@ p{
     bottom: 0px;
     left: 0px;
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     width: 800px;
     height: 86px;
     object-fit: cover;
 }
 
-.seconditems{
+.second-items{
     font-weight: bolder;
     border-bottom: 1px solid #BABABA;
     text-decoration: none;
@@ -358,4 +345,14 @@ p{
     border-top: 2px solid #B80000;
     border-bottom: 2px solid #B80000;
     width: 800px;
+}
+
+.lastone{
+    color: #696969;
+    font-size: 18px;
+}
+
+.lastone a:hover{
+    text-decoration: underline #B80000;
+    color: #B80000;
 }
